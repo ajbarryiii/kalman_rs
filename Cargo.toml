@@ -2,8 +2,14 @@
 name = "kalman-rs"
 version = "0.1.0"
 edition = "2021"
+description = "A Kalman filter implementation in Rust"
+license = "MIT"
+repository = "https://github.com/ajbarryiii/kalman_rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 nalgebra = "0.33.0"
+rand = "0.8.5"
+ndarray = "0.15.6"
+ndarray-rand = "0.14"
